@@ -1,0 +1,12 @@
+name: InventorySaver
+version: '1.0.0'
+main: ru.devarplex.InventorySaver
+api-version: '1.20'
+authors: ["ComingFlex"]
+commands:
+  save-inventory:
+    permission: op
+  inventorysaver:
+    description: Перезагрузка плагина
+    usage: /inventorysaver reload
+    permission: op

@@ -1,0 +1,21 @@
+# Настройки плагина
+max-records-per-player: 5
+
+# Список миров, где смерти не записываются
+disabled-worlds:
+  - "duel_bashnya"
+
+# Сообщения
+messages:
+  only-players: "&cЭта команда доступна только игрокам!"
+  usage: "&cИспользование: /save-inventory <игрок> <номер_смерти>"
+  invalid-history-index: "&cНомер смерти должен быть не меньше 1!"
+  no-records: "&cДля этого игрока не найдено записей о смертях!"
+  history-index-too-high: "&cУказанный номер смерти слишком большой!"
+  error-loading: "&cПроизошла ошибка при загрузке инвентаря!"
+  invalid-number: "&cПожалуйста, укажите корректный номер смерти!"
+  reload-success: "&aКонфигурация успешно перезагружена!"
+  no-permission: "&cУ вас нет прав на использование этой команды!"
+
+# Заголовок инвентаря
+inventory-title: "&r%player% &f#%history% &8- &f%date%"
